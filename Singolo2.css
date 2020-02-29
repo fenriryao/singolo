@@ -1,0 +1,334 @@
+* {
+    box-sizing: border-box;
+    margin: auto;
+    padding: 0;
+}
+body{
+    margin: 0px;
+    margin-left:0px;
+}
+.header{
+    width: 1020px;
+    height: 870px;
+    background-color:#2d303a;
+    border-bottom: 6px solid #323746;
+    z-index: 1;
+}
+.header h1{
+    color:#666d89;
+    font-size: 30px;
+    font-family: "Lato Bold", sans-serif;
+    padding-left: 39.5px;
+    padding-top: 60px;
+}
+.header p{
+    color:#666d89;
+    font-size: 18px;
+    font-family: "Lato Light", sans-serif;
+    padding-left: 39.5px;
+    padding-top: 22px;
+    font-weight: bold;
+}
+.webdes{
+width: 79px;
+}
+.graphdes{
+width: 95px;
+}
+.artwork{
+width: 55px;
+}
+nav{
+    color:#666d89;
+    margin-top: 16px;
+    margin-left:40.5px;
+    font-family: "Lato Regular";
+}
+nav ul{
+    text-decoration: none;
+    align-items: center;
+    font-size: 12px;
+    font-weight: lighter;
+    word-spacing: 7.8px;
+}
+.elall{
+border: 1px solid white;
+
+;
+}
+nav ul li{
+    text-align: center;
+    display:inline-block;
+    border: 1px solid #666d89;
+    border-radius: 4px;
+    padding: 2.3px 5.98px;
+    word-spacing:0px;
+}
+.allobj{
+color:white;
+}
+#ship{
+    width: 220px;
+    height: 187px;
+    position:absolute;
+    z-index: 2;
+    margin-left:40px;
+    margin-top: 19.5px;
+}
+#girl{
+        width: 220px;
+        height: 187px;
+        position:absolute;
+        z-index: 2;
+        margin-left:280px;
+        margin-top: 19.5px;
+}
+#city{
+    width: 220px;
+    height: 187px;
+    position:absolute;
+    z-index: 3;
+    margin-top: 19.5px;
+    margin-left: 520px;
+}
+#robot{
+    width: 220px;
+    height: 187px;
+    position:absolute;
+    z-index: 3;
+    margin-top: 19.5px;
+    margin-left: 760px;  
+}
+#hear{
+    width: 220px;
+    height: 187px;
+    position:absolute;
+    z-index: 2;
+    margin-left:40px;
+    margin-top: 226.5px;
+}
+#sdk{
+    width: 220px;
+    height: 187px;
+    position:absolute;
+    z-index: 2;
+    margin-left:280px;
+    margin-top: 226.5px;
+}
+#details{
+    width: 220px;
+    height: 187px;
+    position:absolute;
+    z-index: 2;
+    margin-left:520px;
+    margin-top: 226.5px;
+}
+#birds{
+    width: 220px;
+    height: 187px;
+    position:absolute;
+    z-index: 2;
+    margin-left:760px;
+    margin-top: 226.5px;  
+}
+#monster{
+    width: 220px;
+    height: 187px;
+    position:absolute;
+    z-index: 2;
+    margin-left:40px;
+    margin-top:433.5px;
+}
+#words{
+    width: 220px;
+    height: 187px;
+    position:absolute;
+    z-index: 2;
+    margin-left:280px;
+    margin-top:433.5px;
+}
+#monster2{
+width: 220px;
+    height: 187px;
+    position:absolute;
+    z-index: 2;
+    margin-left:520px;
+    margin-top:433.5px;
+width: 220px;
+   }
+#smth{ width: 220px;
+    height: 187px;
+    position:absolute;
+    z-index: 2;
+    margin-left:760px;
+    margin-top:433.5px;}
+  
+.main{
+    width: 1020px;
+    height: 738px;
+    background-color: #f2f2f2;
+    border-bottom: 10px solid #ffffff;
+    z-index: 1;
+}
+.main h1{
+    color:#666d89;
+    font-size: 30.5px;
+    font-family: "Lato Bold", sans-serif;
+    padding-left: 39.5px;
+    padding-top: 60px;   
+}
+.main p{
+    color:#666d89;
+    font-size:18px;
+    line-height: 30px;
+    font-family: "Lato Light", sans-serif;
+    padding-left: 39.5px;
+    padding-top: 18px;
+    word-spacing:1.2px;
+}
+.main span{
+    word-spacing: 0px;
+}
+.about{
+margin-top: -1px;
+}
+#textfoot{
+font-size: 18px;
+line-height: 30px;
+}
+
+#ph1{
+    height: 300px;
+    margin-left: 40px;
+    margin-top:45px;
+    position:absolute;
+    z-index: 2;
+}
+#ph2{
+    height: 300px;
+    margin-left: 360px;
+    margin-top:45px;
+    position:absolute;
+    z-index: 2;
+}
+#ph3{
+    height: 300px;
+    margin-left: 680px;
+    margin-top:45px;
+    position:absolute;
+    z-index: 2;
+}
+#h1ph1{
+    color:#666d89;
+    font-size: 18.5px;
+    font-family: "Lato Bold";
+    font-weight: bolder;
+    padding-left: 39.5px;
+    padding-top: 340px;
+    position: absolute;
+    z-index: 3;
+    word-spacing: -1px;
+}
+
+.girl1 p{
+    color:#666d89;
+    font-size: 11px;
+    font-family: "Lato Regular";
+    padding-left: 39.5px;
+    padding-top: 371px; 
+    position: absolute;
+    z-index: 3;  
+    line-height: 21.5px;
+    word-spacing: -0.5px;
+    letter-spacing: 0.5px;
+}
+
+.man1{
+    padding-top: 341px;  
+    padding-left: 320px; 
+}
+.man1 h1{
+    color:#666d89;
+    font-size: 19px;
+    font-family: "Lato Bold";
+    font-weight: bolder;
+    position: absolute;
+    z-index: 3;
+    word-spacing: 0.5px; 
+    padding-top: 0px;  
+    letter-spacing: -0.5px;
+}
+.man1 p{
+    color:#666d89;
+    font-size: 11px;
+    font-family: "Lato Regular";
+    position: static;  
+    line-height: 21.5px;
+    word-spacing: 0.5px;
+    padding-top: 30px;
+    letter-spacing: 0.5px;
+}
+.girl2{ 
+    padding-left: 640px; 
+}
+.girl2 h1{
+    color:#666d89;
+    font-size: 18.5px;
+    font-family: "Lato Bold";
+    font-weight: bolder;
+    position: static;
+    z-index: 3;
+    word-spacing: 0.5px; 
+    margin-top: -133px;
+    margin-left: -1px;   
+    letter-spacing: -0.1px;
+}
+.girl2 p{
+    color:#666d89;
+    font-size: 11px;
+    font-family: "Lato Regular";
+    position: center;
+    z-index: 3;  
+    line-height: 21.5px;
+    word-spacing: 0.4px; 
+    padding-top: 8px;
+    letter-spacing: 0.5px;
+}
+#socials{
+    margin-top: 22px;
+    margin-left: 40px;
+    word-spacing: 2px;
+}
+#socials1{
+    margin-top: -39px;
+    margin-left: 359px;
+    word-spacing: 2px;
+}
+#socials2{
+    margin-top: -38px;
+    margin-left: 679px;
+    word-spacing: 2px;
+}
+a{text-decoration: none;
+color:#666d89;}
+a:hover{
+    color:white;
+    text-decoration: none;
+    box-shadow: 1px 1px 1px grey;
+}
+@font-face {
+    font-family: "Lato Regular";
+    src: url("assets/fonts/Lato-Regular.ttf") format("truetype");
+  }
+  @font-face {
+    font-family: "Lato Light";
+    src: url("assets/fonts/Lato-Light.ttf") format("truetype");
+  }
+  @font-face {
+    font-family: "Lato Bold";
+    src: url("assets/fonts/Lato-Bold.ttf") format("truetype");
+  }
+  @font-face {
+    font-family: "Lato Black";
+    src: url("assets/fonts/Lato-Black.ttf") format("truetype");
+  }
