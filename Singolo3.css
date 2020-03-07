@@ -1,0 +1,220 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+a{
+color:white;
+}
+body{
+    margin:0;
+}
+
+.red-box{
+    margin:0 auto;
+    width: 1020px;
+    height: 654px;
+    background-color: #f06c64;
+    border-bottom: 5px solid #ea676b;
+}
+.red-box h1
+{
+    color:#f0d8d9;
+    padding-top: 60px;
+    padding-left: 40px;
+    font-size:29px;
+    letter-spacing:0.5px;
+    font-family: "Lato Bold";
+    font-weight: 900;
+    word-spacing: 0.5px;
+}
+.red-box p{
+    color:#f0d8d9;
+    font-size: 18px;
+    font-family: "Lato Light";
+    padding-left: 40px;
+    padding-top: 18px;
+    line-height: 30px;
+    word-spacing:1.1px;
+}
+.red-box p span{
+    word-spacing:0px;
+    font-family: "Lato Light";
+}
+.form{
+    padding-top: 4px;
+    padding-left: 0px; 
+}
+#one{
+    color:#f0d8d9;
+    background-color:#d6564f;
+    width:619px;
+    height:38px;
+    padding-left: 14px;
+    font-size: 12px;
+    border-radius: 4px;
+    border: none;
+    margin-top: 22.1px;
+    font-family: "Lato Regular";
+}
+#two{
+    color:#f0d8d9;
+    background-color:#d6564f;
+    width:619px;
+    height:38px;
+    padding-left: 14px;
+    font-size: 12px;
+    border-radius: 4px;
+    border: none;
+    margin-top: 16px;
+    font-family: "Lato Regular";
+}
+#three{
+    color:#f0d8d9;
+    background-color:#d6564f;
+    width:619px;
+    height:38px;
+    padding-left: 14px;
+    font-size: 12px;
+    border-radius: 4px;
+    border: none;
+    margin-top: 16px;
+    font-family: "Lato Regular";
+}
+#four{
+    color:#f0d8d9;
+    background-color:#d6564f;
+    width:619px;
+    height:202px;
+    padding-left: 14px;
+    font-size: 12px;
+    border-radius: 4px;
+    border: none;
+    margin-top: 16px;
+     font-family: "Lato Regular"; 
+     padding-top: 10px;
+}
+#five{
+    margin-left: 560px;
+    padding:10px 10px;
+    font-size: 14px;
+    border-radius: 5px;
+    border: none;
+    font-weight: 900;
+    color: grey;
+}
+#one::placeholder{
+    color: #f48c8f;
+}
+#two::placeholder{
+    color: #f48c8f;
+}
+#three::placeholder{
+    color: #f48c8f;
+}
+#four::placeholder{
+    color: #f48c8f;
+}
+#five:hover{
+    box-shadow: 2px 2px 2px black;
+}
+#one:hover{
+    background-color: indianred;
+}
+#two:hover{
+    background-color: indianred;
+}
+#four:hover{
+    background-color: indianred;
+}
+#three:hover{
+    background-color: indianred;
+}
+.footer{
+    margin:0 auto;
+    width: 1020px; 
+    height: 76px;
+    background-color:#2d303a;
+    z-index: 1;
+}
+.footer p{
+    color: #666d89;
+    padding: 30px 43px;
+    font-size: 12px;
+    letter-spacing:0.2px;
+}
+#socials{
+   position: absolute;
+   z-index: 2;
+   margin-left: 828px;
+   margin-top: -54px;
+   word-spacing: 2px;
+}
+a:hover{
+    color:#f0d8d9;
+    text-decoration: none;
+    box-shadow: 1px 1px 1px grey;
+}
+.contacts{
+    position: absolute;
+    z-index: 2;
+    margin-left: 809px;
+    margin-top: -440px;
+}
+.contacts h1{
+    color: #f0d8d9;
+    font-size: 18px;
+    font-family: "Lato Bold";
+}
+.contacts p{
+    color: #f0d8d9;
+    font-size: 12px;
+    font-family: "Lato Regular";
+    margin-top: 3.5px;
+    line-height: 24.5px;  
+    transform: scaleY(0.9);
+}
+.contacts span{
+    word-spacing: 1px;
+}
+#loc{
+    margin-top: 23px;
+    margin-left: 3px;
+}
+#ph{
+    margin-top: 6px;
+    margin-left: 1px;
+}
+#mail{
+    margin-top: 10px; 
+}
+#loc1{
+    margin-left: 22.5px;
+    margin-top: -64px;
+    z-index: 3;
+}
+#ph1{
+    margin-left: 23px;  
+    line-height: 5px;
+    margin-top: 5.5px;
+}
+#mail1{
+    margin-left: 23px;
+    margin-top: 9px;
+}
+@font-face {
+    font-family: "Lato Regular";
+    src: url("assets/fonts/Lato-Regular.ttf") format("truetype");
+  }
+  @font-face {
+    font-family: "Lato Light";
+    src: url("assets/fonts/Lato-Light.ttf") format("truetype");
+  }
+  @font-face {
+    font-family: "Lato Bold";
+    src: url("assets/fonts/Lato-Bold.ttf") format("truetype");
+  }
+  @font-face {
+    font-family: "Lato Black";
+    src: url("assets/fonts/Lato-Black.ttf") format("truetype");
+  }
