@@ -1,182 +1,316 @@
 <!DOCTYPE html>
-<html> 
-    <head>
-        <title>Singolo</title>
-        <meta charset="UTF-8">
-        <link  href="style.css" rel="stylesheet" type="text/css">
-<link href='http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
-    </head>
-    <body>
-        <div class="header">
-        <header>
-<nav class="nav-box">
-    <div><h1 id="logo">SINGOLO<span id="star">*</span></h1></div>
-    <div><ul>
-          <li><a href="#home">Home</a></li>
-	  <li class="circle">·</li>
-          <li><a id="white" href="#">services</a></li>
-	  <li class="circle">·</li> 
-          <li><a id="white" href="#">portfolio</a></li>
-	  <li class="circle">·</li>
-          <li><a id="white" href="#">about</a></li>
-	  <li class="circle">·</li>
-          <li><a id="white" href="#">contact</a></li>
-    </ul></div>
-</nav>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Singolo</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="header" id="header">
+        <div class="wrapper">
+            <div class="header__wrapper">
+                <h1 class="logo"><a href="#">SINGOLO<span>*</span></a></h1>
+                <nav class="header__navigation">
+                    <ul class="navigation" id="navigation">
+                        <li class="navigation__item"><a href="#slider" class="navigation__link navigation__link_active">Home</a></li>
+                        <li class="navigation__item"><a href="#our-services" class="navigation__link">Services</a></li>
+                        <li class="navigation__item"><a href="#portfolio" class="navigation__link">Portfolio</a></li>
+                        <li class="navigation__item"><a href="#about-us" class="navigation__link">About</a></li>
+                        <li class="navigation__item"><a href="#contact-us" class="navigation__link">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
     </header>
-    </div>
-        <div>
-<div class="red-box">
-<img class="chev1" id="chev_1" src="assets/images/chev_1.png" alt="chev_1" />
-<img id="phone-1" src="assets/images/iPhone_Vertical.png" alt="vertical-phone"/>
-<img id="phone-2" src="assets/images/iPhone_Horizontal.png" alt="horizontal-phone"/>
-<img class="chev2" id="chev_2" src="assets/images/chev_2.png" alt="chev_2"/>
-</div>
-<div class="grey-box">
-<div class="service">
-<h1 class="main-1">Our Services</h1> 
-<p class="text-1"> Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum. Duis mollis, non commodo luctus, nisi erat porttitor <br> ligula, eget lacinia odio sem nec elit. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimenturn nibh.</p>   
-</div>
-<div class="pen"> 
-    <img src="assets/images/pen.png" alt="pen"/>
-    <h1>Custom Design</h1>
-    <p>Curabitur vestibulum eget mauris quis<br> laoreet. Phasellus in quam
-        laoreet, viverra<br> lacus ut, ultrices velit.</p></div>
-<div class="phone">
-    <img src="assets/images/phone1.png" alt="phone"/>
-    <h1>Responsive Layout</h1>
-    <p>Sed porttitor placerat rhoncus. In at nunc<br> tellus. Maecenas
-        blandit nunc ligula. Prae-<br>sent elit leo.</p>
-</div>
-<div class="bulb">
-    <img src="assets/images/bulb.png" alt="bulb"/>
-    <h1>Inovative Ideas</h1>
-    <p> Quisque luctus, quam eget molestie com-<br>
-        modo, lacus purus cursus purus, nec<br> rutrum tellus dolor id lorem.</p>
-    </div>
-<div class="dialog">
-<img src="assets/images/bubble.png" alt="dialog"/>
-<h1>24 / 7 Support</h1>
-<p>Vivamus vel quam lacinia, tincidunt dui<br> non, vehicula nisi.
-Nulla a sem erat. Pellen-<br>tesque egestas venenatis lorem.</p>
-</div>
-<div class="heart">
-<img src="assets/images/heart.png" alt="heart" />
-<h1>Love Is The Answer</h1>
-<p> Nulla sed nunc et tortor luctus faucibus.<br> Morbi at aliquet
-    turpis, et consequat felis.<br> Quisque condimentum.</p>
-</div>
-<div class="star">
-<img src="assets/images/star.png" alt="star"/>
-<h1>Feel Like A Star</h1>
-<p> Quisque hendrerit purus dapibus, ornare<br> nibh vitae, viverra
-    nibh. Fusce vitae<br> aliquam tellus.</p>
-</div>
-</div>
+
+    <div class="slider" id="slider">
+        <div class="wrapper">
+            <div class="slider__wrapper">
+                <a href="#" class="slider__button slider__button_arrow-left">
+                </a>
+                <div class="slider__item fadeAnimation">
+                    <div class="phones">
+                        <div class="phones__item phones__item_vertical">
+                            <img class="phone__shadow" src="assets/images/Shadow.png" alt="shadow">
+                            <img class="phone__base" src="assets/images/Base.png" alt="base">
+                            <img class="phone__screen" src="assets/images/Screen1.png" alt="screen">
+                        </div>
+
+                        <div class="phones__item phones__item_horizontal">
+                            <img class="phone__shadow" src="assets/images/Shadow.png" alt="shadow">
+                            <img class="phone__base" src="assets/images/Base.png" alt="base">
+                            <img class="phone__screen" src="assets/images/Screen2.png" alt="screen">
+                        </div>
+                    </div>
+                </div>
+                <div class="slider__item fadeAnimation">
+                    <div class="phones">
+                        <img class="slider-img" src="assets/images/Slider.png" alt="slider">
+                    </div>
+                </div>
+                <a href="#" class="slider__button slider__button_arrow-right">
+                </a>
+            </div>
+
         </div>
-	<div class="secondblock">
-        <div class="head">
-<h1>Portfolio</h1>
-<p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.</p>
-        <nav class="nav-block"><ul>
-            <li class="elall"><a class="allobj" href="#">All</a></li>
-            <li id="ulsec" class="webdes"><a href="#">Web Design</a></li>
-            <li id="ulsec" class="graphdes"><a href="#">Graphic Design</a></li>
-            <li id="ulsec" class="artwork"><a href="#">Artwork</a></li>
-        </ul></nav>
-        <img id="ship" src="assets/images/p1.png" alt="ship"/>
-        <img id="girl" src="assets/images/p2.png" alt="girl"/>
-        <img id="city" src="assets/images/p3.png" alt="town"/>
-        <img id="robot" src="assets/images/p4.png" alt="robot"/>
-        <img id="hear" src="assets/images/p5.png" alt="hear"/>
-        <img id="sdk" src="assets/images/p6.png" alt="sdk"/>
-        <img id="details" src="assets/images/p7.png" alt="details"/>
-        <img id="birds" src="assets/images/p8.png" alt="birds"/>
-        <img id="monster" src="assets/images/p12.png" alt="monster"/>
-        <img id="words" src="assets/images/p9.png" alt="words"/>
-        <img id="monster2" src="assets/images/p10.png" alt="monster"/>
-        <img id="smth" src="assets/images/p11.png" alt="something"/>
     </div>
-       
-        <div class="main-block">
-<h1 class="about">About Us</h1>
-<p id="textfoot">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum. Duis mollis, non commodo luctus, nisi erat porttitor <br>
-     ligula, <span>eget lacinia odio sem nec elit. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</span></p>
-     <img id="phg" src="assets/images/ph1.png" alt="girl"/>
-     <img id="ph2" src="assets/images/ph2.png" alt="man"/>
-     <img id="ph3" src="assets/images/ph3.png" alt="girl"/>
-     <br>
-     <div class="girl1"><h1 id="h1ph1">Adam Jensen</h1>
-     <p>
-        Quisque luctus, quam eget molestie commodo, lacus purus <br> 
-        cursus purus, nec rutrum tellus dolor id lorem.
-     </p>
+    <section class="our-services" id="our-services">
+        <div class="wrapper">
+            <div class="our-services__wrapper">
+                <div class="description-block">
+                    <h2 class="description-block__title">Our Services</h2>
+                    <h3 class="description-block__text">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum. Duis mollis, non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</h3>
+                </div>
+                <div class="layout-3-column">
+                    <div class="layout-2-column">
+                        <div class="service__icon">
+                            <img src="assets/images/pen.png" alt="pen">
+                        </div>
+                        <div class="service__content">
+                            <h3 class="service__title">Custom Design</h3>
+                            <p class="service__description">Curabitur vestibulum eget mauris quis laoreet. Phasellus in quam laoreet, viverra lacus ut, ultrices velit.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="layout-2-column">
+                        <div class="service__icon">
+                            <img src="assets/images/bulb.png" alt="bulb">
+                        </div>
+                        <div class="service__content">
+                            <h3 class="service__title">Inovative Ideas</h3>
+                            <p class="service__description">Quisque luctus, quam eget molestie commodo, lacus purus cursus purus, nec rutrum tellus dolor id lorem.</p>
+                        </div>
+                    </div>
+                    <div class="layout-2-column">
+                        <div class="service__icon">
+                            <img src="assets/images/heart.png" alt="heart">
+                        </div>
+                        <div class="service__content">
+                            <h3 class="service__title">Love Is The Answer</h3>
+                            <p class="service__description">Nulla sed nunc et tortor luctus faucibus. Morbi at aliquet turpis, et consequat felis. Quisque condimentum.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="layout-2-column">
+                        <div class="service__icon">
+                            <img src="assets/images/phone.svg" alt="phone">
+                        </div>
+                        <div class="service__content">
+                            <h3 class="service__title">Responsive Layout</h3>
+                            <p class="service__description">Sed porttitor placerat rhoncus. In at nunc tellus. Maecenas blandit nunc ligula. Prae-sent elit leo.</p>
+                        </div>
+                    </div>
+                    <div class="layout-2-column">
+                        <div class="service__icon">
+                            <img src="assets/images/bubble.png" alt="bubble">
+                        </div>
+                        <div class="service__content">
+                            <h3 class="service__title">24 / 7 Support</h3>
+                            <p class="service__description">Vivamus vel quam lacinia, tincidunt dui non, vehicula nisi. Nulla a sem erat. Pellentesque egestas venenatis lorem .</p>
+                        </div>
+                    </div>
+                    <div class="layout-2-column">
+                        <div class="service__icon">
+                            <img src="assets/images/star.png" alt="star">
+                        </div>
+                        <div class="service__content">
+                            <h3 class="service__title">Feel Like A Star</h3>
+                            <p class="service__description">Quisque hendrerit purus dapibus, ornare nibh vitae, viverra nibh. Fusce vitae aliquam tellus.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="portfolio" id="portfolio">
+        <div class="wrapper">
+            <div class="portfolio-wrapper">
+                <div class="description-block">
+                    <h2 class="description-block__title">Portfolio</h2>
+                    <h3 class="description-block__text">Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.a</h3>
+                </div>
+                <div class="portfolio__menu" id="portfolio__menu">
+                    <ul class="menu">
+                        <li class="menu__item "><a class="menu__link menu__link_active" href="#">All</a></li>
+                        <li class="menu__item"><a class="menu__link" href="#">Web Design</a></li>
+                        <li class="menu__item"><a class="menu__link" href="#">Graphic Design</a></li>
+                        <li class="menu__item"><a class="menu__link" href="#">Artwork</a></li>
+                    </ul>
+                </div>
+                <div class="portfolio__container">
+                    <div class="portfolio__img">
+                        <a href="#">
+                            <img src="assets/images/p1.png" alt="img1">
+                        </a>
+                    </div>
+                    <div class="portfolio__img">
+                        <a href="#">
+                            <img src="assets/images/p2.png" alt="img2">
+                        </a>
+                    </div>
+                    <div class="portfolio__img">
+                        <a href="#">
+                            <img src="assets/images/p3.png" alt="img3">
+                        </a>
+                    </div>
+                    <div class="portfolio__img">
+                        <a href="#">
+                            <img src="assets/images/p4.png" alt="img4">
+                        </a>
+                    </div>
+                    <div class="portfolio__img">
+                        <a href="#">
+                            <img src="assets/images/p5.png" alt="img5">
+                        </a>
+                    </div>
+                    <div class="portfolio__img">
+                        <a href="#">
+                            <img src="assets/images/p6.png" alt="img6">
+                        </a>
+                    </div>
+                    <div class="portfolio__img">
+                        <a href="#">
+                            <img src="assets/images/p7.png" alt="img7">
+                        </a>
+                    </div>
+                    <div class="portfolio__img">
+                        <a href="#">
+                            <img src="assets/images/p8.png" alt="img8">
+                        </a>
+                    </div>
+                    <div class="portfolio__img">
+                        <a href="#">
+                            <img src="assets/images/p9.png" alt="img9">
+                        </a>
+                    </div>
+                    <div class="portfolio__img">
+                        <a href="#">
+                            <img src="assets/images/p10.png" alt="img10">
+                        </a>
+                    </div>
+                    <div class="portfolio__img">
+                        <a href="#">
+                            <img src="assets/images/p11.png" alt="img11">
+                        </a>
+                    </div>
+                    <div class="portfolio__img">
+                        <a href="#">
+                            <img src="assets/images/p12.png" alt="img12">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="about-us" id="about-us">
+        <div class="wrapper">
+            <div class="about-us-wrapper">
+                <div class="description-block">
+                    <h2 class="description-block__title">About Us</h2>
+                    <h3 class="description-block__text">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum. Duis mollis, non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</h3>
+                </div>
+                <div class="profile">
+                    <div class="profile__item">
+                        <img class="profile__avatar" src="assets/images/ph1.png" alt="#" />
+                        <h4 class="profile__name">Adam Jensen</h4>
+                        <p class="profile__description">Quisque luctus, quam eget molestie commodo, lacus purus cursus purus, nec rutrum tellus dolor id lorem.</p>
+                        <div class="profile__social">
+                            <a href="#"><span class="fa fa-facebook"></span></a>
+                            <a href="#"><span class="fa fa-google"></span></a>
+                            <a href="#"><span class="fa fa-twitter"></span></a>
+                            <a href="#"><span class="fa fa-linkedin"></span></a>
+                        </div>
+                    </div>
+                    <div class="profile__item">
+                        <img class="profile__avatar" src="assets/images/ph2.png" alt="#" />
+                        <h4 class="profile__name">Desmond Miles</h4>
+                        <p class="profile__description">Curabitur vestibulum eget mauris quis laoreet. Phasellus in quam laoreet, viverra lacus ut, ultrices velit.</p>
+                        <div class="profile__social">
+                            <a href="#"><span class="fa fa-facebook"></span></a>
+                            <a href="#"><span class="fa fa-google"></span></a>
+                            <a href="#"><span class="fa fa-twitter"></span></a>
+                            <a href="#"><span class="fa fa-linkedin"></span></a>
+                        </div>
+                    </div>
+                    <div class="profile__item">
+                        <img class="profile__avatar" src="assets/images/ph3.png" alt="#" />
+                        <h4 class="profile__name">Scolara Visari</h4>
+                        <p class="profile__description">Nulla sed nunc et tortor luctus faucibus. Morbi at aliquet turpis, et consequat felis. Quisque condimentum.</p>
+                        <div class="profile__social">
+                            <a href="#"><span class="fa fa-facebook"></span></a>
+                            <a href="#"><span class="fa fa-google"></span></a>
+                            <a href="#"><span class="fa fa-twitter"></span></a>
+                            <a href="#"><span class="fa fa-linkedin"></span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="contact-us" id="contact-us">
+        <div class="wrapper">
+            <div class="contact-us__wrapper">
+                <div class="description-block">
+                    <h2 class="description-block__title">Get a Quote</h2>
+                    <h3 class="description-block__text">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum. Duis mollis, non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</h3>
+                </div>
+                <div class="contact-us__container">
+                    <form id="contact-us-form" class="form" action="#" method="POST">
+                        <input name="Name" class="form__name" type="text" maxlength="80" required value="" placeholder="Name  (Required)">
+
+                        <input name="Email" class="form__email" type="email" maxlength="80" required value="" placeholder="Email  (Required)">
+
+                        <input name="Subject" class="form__subject" type="text" maxlength="80" value="" placeholder="Subject">
+
+                        <textarea name="Detail" class="form__detail" maxlength="340" placeholder="Describe your project in detail..."></textarea>
+
+                        <input type="submit" value="submit" name="subscribe" class="form__submit" id="form__submit">
+                    </form>
+                    <div class="info">
+                        <h4 class="info__title">Contact Information</h4>
+                        <p class="info__description">Quisque hendrerit purus dapibus, ornare nibh vitae, viverra nibh. Fusce vitae aliquam tellus. Proin sit amet volutpat libero. Nulla sed nunc et tortor luctus faucibus. Morbi at aliquet turpis, et consequat felis.</p>
+                        <p class="info__contact"><span class="fa fa-map-marker"></span>Elm St. 14/05 Lost City </p>
+                        <p class="info__contact"><span class="fa fa-phone"></span><a href="tel:+035283318635">03528 331 86 35</a></p>
+                        <p class="info__contact"><span class="fa fa-envelope"></span>
+                            <a href="mailto:info@singolo.com">info@singolo.com</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer" id="footer">
+        <div class="wrapper">
+            <div class="footer__wrapper">
+                <div class="footer__container">
+                    <div class="footer__copyright">© Copyright 2020 </div>
+                    <div class="footer__social">
+                        <a href="#"><span class="fa fa-facebook"></span></a>
+                        <a href="#"><span class="fa fa-google"></span></a>
+                        <a href="#"><span class="fa fa-twitter"></span></a>
+                        <a href="#"><span class="fa fa-linkedin"></span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div id="message-box" class="message-box hidden">
+        <div id="message" class="message">
+            <p>The letter was sent!</p><br>
+            <p id="message-subject" class="message__subject"></p><br>
+            <p id="message-description" class="message__description"></p>
+            <div class="button-container">
+                <button id="button_ok" class="button button_ok">OK</button>
+            </div>
+        </div>
     </div>
-     <div class="man1"><h1 id="h1ph2">Desmond Miles</h1>
-        <p>
-            Curabitur vestibulum eget mauris quis laoreet. Phasellus <br>
-             in quam laoreet, viverra lacus ut, ultrices velit.
-        </p></div>
-        <div class="girl2"><h1 id="h1ph3">Scolara Visari</h1>
-            <p>
-                Nulla sed nunc et tortor luctus faucibus. Morbi at aliquet <br>  turpis, et consequat felis. 
-                Quisque condimentum.
-            </p></div>
-            <div id="socials">
-                <a href="#"><img id="face" src="assets/images/facebook.png" alt="facebook"/></a>
-                <a href="#"><img id="goog" src="assets/images/google+.png" alt="google"/></a>
-                <a href="#"><img id="twit" src="assets/images/twitter.png" alt="twitter"/></a>
-                <a href="#"><img id="link" src="assets/images/linkedin.png" alt="linkedin"/></a>
-               </div>
-               <div id="socials1">
-                <a href="#"><img id="face" src="assets/images/facebook.png" alt="facebook"/></a>
-                <a href="#"><img id="goog" src="assets/images/google+.png" alt="google"/></a>
-                <a href="#"><img id="twit" src="assets/images/twitter.png" alt="twitter"/></a>
-                <a href="#"><img id="link" src="assets/images/linkedin.png" alt="linkedin"/></a>
-               </div>
-               <div id="socials2">
-                <a href="#"><img id="face" src="assets/images/facebook.png" alt="facebook"/></a>
-                <a href="#"><img id="goog" src="assets/images/google+.png" alt="google"/></a>
-                <a href="#"><img id="twit" src="assets/images/twitter.png" alt="twitter"/></a>
-                <a href="#"><img id="link" src="assets/images/linkedin.png" alt="linkedin"/></a>
-               </div>
-        </div>
-        </div>
-        <div class="red-block">
-            <h1>Get a Quote</h1>
-            <p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum. Duis mollis, non commodo luctus, nisi erat porttitor<br>
-                <span>ligula, eget lacinia odio sem nec elit. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</span></p>
-            <form class="form" method="POST">
-            <p>
-            <input id="one" type="text" name="Name" placeholder="Name (Required)" required>
-            <input id="two" type="email" name="Email" placeholder="Email (Required)" required>
-            <input id="three" type="text" name="Subject" placeholder="Subject">
-            <textarea id="four" name="description" placeholder="Describe your project in detail..."></textarea>
-           <br>
-            <input id="five" type="submit" name="send" value="Send">
-            </p>
-            </form>
-        </div>
-        <div class="contacts"> 
-            <h1>Contact Information</h1>
-            <p>Quisque hendrerit purus dapibus, ornare nibh vitae, viver-<br> ra nibh. Fusce vitae aliquam tellus. Proin sit amet volutpat<br><span>libero. Nulla sed nunc et tortor luctus faucibus. Morbi at<br> aliquet turpis, et consequat felis.</span> </p>
-        <img id="loc" src="assets/images/location.png" alt="location"/>
-        <br>
-        <img id="ph" src="assets/images/phone.png" alt="phone"/>
-        <br>
-        <img id="mail" src="assets/images/mail.png" alt="mail"/>
- 
-        <p id="loc1"><a id="link" href="mailto:dasha2013724@icloud.com">Elm St. 14/05 Lost City</a></p>
-        <p id="ph1"><a id="link" href="tel:+375293877455">03528 331 86 35</a></p>
-        <p id="mail1">info@singolo.com</p></div>
-        <div><footer class="footer">
-           <p>© Copyright 2013</p>
-           <div id="socials4">
-            <a href="#"><img id="face" src="assets/images/facebook.png" alt="facebook"/></a>
-            <a href="#"><img id="goog" src="assets/images/google+.png" alt="google"/></a>
-            <a href="#"><img id="twit" src="assets/images/twitter.png" alt="twitter"/></a>
-            <a href="#"><img id="link" src="assets/images/linkedin.png" alt="linkedin"/></a>
-           </div>
-        </footer></div> 
-    </body>
+    <script src="script.js"></script>
+</body>
+
 </html>
